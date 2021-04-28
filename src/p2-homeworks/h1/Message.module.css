@@ -1,0 +1,55 @@
+.workArea {
+    display: grid;
+
+    grid-template-areas:
+  "c h";
+    grid-auto-columns: auto;
+
+    grid-gap: 0px;
+    width: 450px;
+    background-color: greenyellow;
+
+}
+
+
+.imgArea {
+    grid-area: c;
+    margin: 10px 0px 10px 10px;
+    border-radius: 0px 0px 40px 0px;
+    background-color: greenyellow;
+}
+
+
+.avatar {
+    padding: 60px 20px 10px 20px;
+    width: 70px;
+    border-radius: 40px;
+
+}
+
+.messageArea {
+    grid-area: h;
+    background-color: #282c34;
+        width: 250px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 40px 40px 40px 0px;
+
+
+
+}
+
+.name {
+    color: blueviolet;
+}
+
+.message {
+    color: wheat;
+}
+
+.time {
+    color: green;
+    font-size: large;
+    margin-left: 200px;
+
+}
